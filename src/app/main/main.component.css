@@ -1,3 +1,71 @@
+.banner-section{
+    position: relative;
+}
 .banner-section img{
     width: 100%;
+}
+.banner-caption{
+    position: absolute;
+    margin: auto;
+    max-width: 900px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-caption h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner-caption h4{
+    font-size: 28px;
+    font-weight: 300;
+}
+.banner-btn{
+    border: solid 2px #fff;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+    max-width: fit-content;
+    margin: 35px auto 0;
+}
+.banner-btn:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.lets-descus{
+    background-color: #000000;
+    padding: 40px 0;
+}
+
+.inner-lets-descus{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.lets-descrip{
+    font-size: 40px;
+    color: #fff;
+}
+.lets-btn{
+    background-color: #fff;
+    color: #000;
+    font-size:16px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 10px 20px;
 }
